@@ -126,6 +126,11 @@ body {
   font-size: 2.5rem;
 }
 
+.slider__img {
+  max-width: 90vw;
+  max-height: 55vh;
+}
+
 @-webkit-keyframes check {
   50% {
     outline-color: #333;
@@ -148,7 +153,3 @@ body {
   }
 }
 
-img {
-  max-width: 90vw;
-  max-height: 55vh;
-}
