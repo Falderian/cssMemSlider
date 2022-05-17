@@ -64,16 +64,16 @@ body {
           animation: check 0.4s linear forwards;
 }
 .navigation:checked:nth-of-type(1) ~ .slider__div {
-  margin-left: 300%;
+  left: 0%;
 }
 .navigation:checked:nth-of-type(2) ~ .slider__div {
-  margin-left: 100%;
+  left: -100%;
 }
 .navigation:checked:nth-of-type(3) ~ .slider__div {
-  margin-left: -100%;
+  left: -200%;
 }
 .navigation:checked:nth-of-type(4) ~ .slider__div {
-  margin-left: -300%;
+  left: -300%;
 }
 .slider__div {
   position: absolute;
